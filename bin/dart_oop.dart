@@ -1,3 +1,11 @@
+// Simple class
+class Student {
+  String name;
+  String id;
+
+  Student(this.name, this.id);
+}
+
 void main(List<String> arguments) {
-  print('Hello world!');
+  Student student = Student("Alfian", "891");
 }
